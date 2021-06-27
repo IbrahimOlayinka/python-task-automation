@@ -12,7 +12,6 @@ if os.path.isfile('save.txt'):
         apps = [x for x in tempApps if x.strip()]
 
 def addApp():
-
     for widget in frame.winfo_children():
         widget.destroy()
 
